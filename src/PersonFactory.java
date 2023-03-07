@@ -10,8 +10,6 @@ public class PersonFactory {
     }
 
     public void addPerson(Person person) {
-        Collections.sort(allPersons); //sort list in alphabetical order first
-
         int original_size = allPersons.size(); //note original size for line 23.
 
         for(int i = 0; i < allPersons.size(); i++){ // compares last name of person object to each person object in arralyist.
